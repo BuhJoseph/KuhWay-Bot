@@ -3,6 +3,8 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
 
+//TEST
+
 bot.login(TOKEN);
 
 bot.on('ready', () => {
